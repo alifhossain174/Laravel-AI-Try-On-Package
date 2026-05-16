@@ -1,0 +1,228 @@
+.ai-tryon {
+    margin-top: 0.875rem;
+    font-family: inherit;
+}
+
+.ai-tryon *,
+.ai-tryon *::before,
+.ai-tryon *::after {
+    box-sizing: border-box;
+}
+
+.ai-tryon__button,
+.ai-tryon__primary,
+.ai-tryon__secondary,
+.ai-tryon__icon-button {
+    appearance: none;
+    border: 0;
+    cursor: pointer;
+    font: inherit;
+}
+
+.ai-tryon__button,
+.ai-tryon__primary {
+    background: #111827;
+    color: #ffffff;
+    border-radius: 6px;
+    font-weight: 700;
+    min-height: 2.75rem;
+    padding: 0.75rem 1rem;
+    transition: background 160ms ease, transform 160ms ease;
+}
+
+.ai-tryon__button:hover,
+.ai-tryon__primary:hover {
+    background: #0f766e;
+}
+
+.ai-tryon__button:active,
+.ai-tryon__primary:active {
+    transform: translateY(1px);
+}
+
+.ai-tryon__button:disabled,
+.ai-tryon__primary:disabled {
+    cursor: wait;
+    opacity: 0.68;
+}
+
+.ai-tryon__modal[hidden],
+.ai-tryon [hidden] {
+    display: none !important;
+}
+
+.ai-tryon__modal {
+    align-items: center;
+    display: flex;
+    inset: 0;
+    justify-content: center;
+    padding: 1rem;
+    position: fixed;
+    z-index: 9999;
+}
+
+.ai-tryon__backdrop {
+    background: rgba(15, 23, 42, 0.58);
+    inset: 0;
+    position: absolute;
+}
+
+.ai-tryon__dialog {
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 24px 80px rgba(15, 23, 42, 0.28);
+    color: #111827;
+    max-height: min(92vh, 760px);
+    max-width: 540px;
+    overflow: auto;
+    padding: 1.25rem;
+    position: relative;
+    width: min(100%, 540px);
+}
+
+.ai-tryon__header {
+    align-items: center;
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.ai-tryon__header h2 {
+    font-size: 1.25rem;
+    line-height: 1.2;
+    margin: 0;
+}
+
+.ai-tryon__icon-button {
+    align-items: center;
+    background: #f3f4f6;
+    border-radius: 999px;
+    color: #374151;
+    display: inline-flex;
+    height: 2rem;
+    justify-content: center;
+    width: 2rem;
+}
+
+.ai-tryon__form {
+    display: grid;
+    gap: 0.875rem;
+}
+
+.ai-tryon__dropzone {
+    align-items: center;
+    border: 1px dashed #94a3b8;
+    border-radius: 8px;
+    cursor: pointer;
+    display: grid;
+    gap: 0.25rem;
+    min-height: 8rem;
+    padding: 1.25rem;
+    place-items: center;
+    text-align: center;
+}
+
+.ai-tryon__dropzone input {
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    width: 1px;
+}
+
+.ai-tryon__dropzone-title {
+    color: #111827;
+    font-weight: 700;
+}
+
+.ai-tryon__dropzone-text,
+.ai-tryon__disclaimer,
+.ai-tryon__consent {
+    color: #64748b;
+    font-size: 0.875rem;
+    line-height: 1.5;
+}
+
+.ai-tryon__preview,
+.ai-tryon__result {
+    margin: 0;
+}
+
+.ai-tryon__preview img,
+.ai-tryon__result img {
+    background: #f8fafc;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    display: block;
+    max-height: 430px;
+    object-fit: contain;
+    width: 100%;
+}
+
+.ai-tryon__consent {
+    align-items: flex-start;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.ai-tryon__disclaimer {
+    margin: 0;
+}
+
+.ai-tryon__actions {
+    display: flex;
+    gap: 0.625rem;
+    justify-content: flex-end;
+}
+
+.ai-tryon__secondary {
+    background: #f3f4f6;
+    border-radius: 6px;
+    color: #374151;
+    font-weight: 700;
+    min-height: 2.75rem;
+    padding: 0.75rem 1rem;
+}
+
+.ai-tryon__message {
+    border-radius: 6px;
+    font-size: 0.925rem;
+    line-height: 1.45;
+    padding: 0.75rem;
+}
+
+.ai-tryon__message[data-state="loading"] {
+    background: #eff6ff;
+    color: #1d4ed8;
+}
+
+.ai-tryon__message[data-state="error"] {
+    background: #fef2f2;
+    color: #b91c1c;
+}
+
+.ai-tryon__message[data-state="success"] {
+    background: #ecfdf5;
+    color: #047857;
+}
+
+.ai-tryon__premium {
+    color: inherit;
+    font-weight: 800;
+    text-decoration: underline;
+}
+
+@media (max-width: 520px) {
+    .ai-tryon__dialog {
+        padding: 1rem;
+    }
+
+    .ai-tryon__actions {
+        display: grid;
+    }
+
+    .ai-tryon__secondary,
+    .ai-tryon__primary {
+        width: 100%;
+    }
+}
