@@ -1,6 +1,6 @@
 <?php
 
-namespace Vendor\LaravelAiTryon\Console;
+namespace FahimHossain\LaravelAiTryon\Console;
 
 use Illuminate\Console\Command;
 

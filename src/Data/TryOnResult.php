@@ -1,6 +1,6 @@
 <?php
 
-namespace Vendor\LaravelAiTryon\Data;
+namespace FahimHossain\LaravelAiTryon\Data;
 
 class TryOnResult
 {

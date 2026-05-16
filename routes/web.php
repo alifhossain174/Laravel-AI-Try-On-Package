@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use Vendor\LaravelAiTryon\Http\Controllers\TryOnController;
+use FahimHossain\LaravelAiTryon\Http\Controllers\TryOnController;
 
 Route::prefix(config('ai-tryon.routes.prefix', 'ai-tryon'))
     ->middleware(config('ai-tryon.routes.middleware', ['web', 'throttle:ai-tryon']))

@@ -1,10 +1,10 @@
 <?php
 
-namespace Vendor\LaravelAiTryon\Tests\Fakes;
+namespace FahimHossain\LaravelAiTryon\Tests\Fakes;
 
 use Illuminate\Support\Facades\Storage;
-use Vendor\LaravelAiTryon\Contracts\AiTryOnProviderInterface;
-use Vendor\LaravelAiTryon\Data\TryOnResult;
+use FahimHossain\LaravelAiTryon\Contracts\AiTryOnProviderInterface;
+use FahimHossain\LaravelAiTryon\Data\TryOnResult;
 
 class FakeTryOnProvider implements AiTryOnProviderInterface
 {

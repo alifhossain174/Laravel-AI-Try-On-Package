@@ -1,9 +1,9 @@
 <?php
 
-namespace Vendor\LaravelAiTryon\Tests\Feature;
+namespace FahimHossain\LaravelAiTryon\Tests\Feature;
 
 use Illuminate\Support\Facades\Blade;
-use Vendor\LaravelAiTryon\Tests\TestCase;
+use FahimHossain\LaravelAiTryon\Tests\TestCase;
 
 class TryOnButtonTest extends TestCase
 {

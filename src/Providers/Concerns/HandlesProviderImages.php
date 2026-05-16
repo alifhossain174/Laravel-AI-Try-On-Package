@@ -1,6 +1,6 @@
 <?php
 
-namespace Vendor\LaravelAiTryon\Providers\Concerns;
+namespace FahimHossain\LaravelAiTryon\Providers\Concerns;
 
 use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\Storage;

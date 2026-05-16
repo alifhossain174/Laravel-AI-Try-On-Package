@@ -1,10 +1,10 @@
 <?php
 
-namespace Vendor\LaravelAiTryon\Tests;
+namespace FahimHossain\LaravelAiTryon\Tests;
 
 use Illuminate\Support\Facades\Storage;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Vendor\LaravelAiTryon\AiTryOnServiceProvider;
+use FahimHossain\LaravelAiTryon\AiTryOnServiceProvider;
 
 abstract class TestCase extends Orchestra
 {

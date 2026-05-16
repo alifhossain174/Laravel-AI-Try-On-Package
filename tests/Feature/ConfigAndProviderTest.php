@@ -1,11 +1,11 @@
 <?php
 
-namespace Vendor\LaravelAiTryon\Tests\Feature;
+namespace FahimHossain\LaravelAiTryon\Tests\Feature;
 
-use Vendor\LaravelAiTryon\Contracts\AiTryOnProviderInterface;
-use Vendor\LaravelAiTryon\Providers\GeminiTryOnProvider;
-use Vendor\LaravelAiTryon\Services\TryOnService;
-use Vendor\LaravelAiTryon\Tests\TestCase;
+use FahimHossain\LaravelAiTryon\Contracts\AiTryOnProviderInterface;
+use FahimHossain\LaravelAiTryon\Providers\GeminiTryOnProvider;
+use FahimHossain\LaravelAiTryon\Services\TryOnService;
+use FahimHossain\LaravelAiTryon\Tests\TestCase;
 
 class ConfigAndProviderTest extends TestCase
 {

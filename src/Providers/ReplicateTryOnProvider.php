@@ -1,12 +1,12 @@
 <?php
 
-namespace Vendor\LaravelAiTryon\Providers;
+namespace FahimHossain\LaravelAiTryon\Providers;
 
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Http;
-use Vendor\LaravelAiTryon\Contracts\AiTryOnProviderInterface;
-use Vendor\LaravelAiTryon\Data\TryOnResult;
-use Vendor\LaravelAiTryon\Providers\Concerns\HandlesProviderImages;
+use FahimHossain\LaravelAiTryon\Contracts\AiTryOnProviderInterface;
+use FahimHossain\LaravelAiTryon\Data\TryOnResult;
+use FahimHossain\LaravelAiTryon\Providers\Concerns\HandlesProviderImages;
 
 class ReplicateTryOnProvider implements AiTryOnProviderInterface
 {

@@ -74,10 +74,10 @@ Publish `config/ai-tryon.php` and update:
 To add a custom provider, bind your implementation to:
 
 ```php
-Vendor\LaravelAiTryon\Contracts\AiTryOnProviderInterface::class
+FahimHossain\LaravelAiTryon\Contracts\AiTryOnProviderInterface::class
 ```
 
-The provider must return a `Vendor\LaravelAiTryon\Data\TryOnResult`.
+The provider must return a `FahimHossain\LaravelAiTryon\Data\TryOnResult`.
 
 ## Usage Limits and Premium CTA
 
@@ -165,8 +165,8 @@ The tests use Orchestra Testbench and SQLite in memory.
 
 ## Packagist Publishing
 
-1. Replace the placeholder package name `vendor/laravel-ai-tryon` in `composer.json`.
-2. Replace the namespace `Vendor\\LaravelAiTryon` if desired.
+1. Use your real package name in `composer.json`, for example `fahimhossain/laravel-ai-tryon`.
+2. Keep the namespace consistent with your autoload mapping, for example `FahimHossain\\LaravelAiTryon`.
 3. Push the repository to GitHub.
 4. Create a Packagist package pointing to the GitHub repository.
 5. Tag releases with SemVer, for example `v1.0.0`.

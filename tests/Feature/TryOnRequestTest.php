@@ -1,10 +1,10 @@
 <?php
 
-namespace Vendor\LaravelAiTryon\Tests\Feature;
+namespace FahimHossain\LaravelAiTryon\Tests\Feature;
 
 use Illuminate\Foundation\Http\Middleware\VerifyCsrfToken;
 use Illuminate\Http\UploadedFile;
-use Vendor\LaravelAiTryon\Tests\TestCase;
+use FahimHossain\LaravelAiTryon\Tests\TestCase;
 
 class TryOnRequestTest extends TestCase
 {

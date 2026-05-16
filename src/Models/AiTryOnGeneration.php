@@ -1,6 +1,6 @@
 <?php
 
-namespace Vendor\LaravelAiTryon\Models;
+namespace FahimHossain\LaravelAiTryon\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Str;

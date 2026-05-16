@@ -1,6 +1,6 @@
 <?php
 
-namespace Vendor\LaravelAiTryon\Http\Requests;
+namespace FahimHossain\LaravelAiTryon\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 use Illuminate\Validation\Rule;

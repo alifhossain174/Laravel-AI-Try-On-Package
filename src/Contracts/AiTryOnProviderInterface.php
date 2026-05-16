@@ -1,8 +1,8 @@
 <?php
 
-namespace Vendor\LaravelAiTryon\Contracts;
+namespace FahimHossain\LaravelAiTryon\Contracts;
 
-use Vendor\LaravelAiTryon\Data\TryOnResult;
+use FahimHossain\LaravelAiTryon\Data\TryOnResult;
 
 interface AiTryOnProviderInterface
 {

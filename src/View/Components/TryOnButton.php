@@ -1,6 +1,6 @@
 <?php
 
-namespace Vendor\LaravelAiTryon\View\Components;
+namespace FahimHossain\LaravelAiTryon\View\Components;
 
 use Illuminate\View\Component;
 use Illuminate\View\View;

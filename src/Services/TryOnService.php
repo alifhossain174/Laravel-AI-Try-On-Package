@@ -1,6 +1,6 @@
 <?php
 
-namespace Vendor\LaravelAiTryon\Services;
+namespace FahimHossain\LaravelAiTryon\Services;
 
 use Carbon\CarbonInterface;
 use Illuminate\Contracts\Auth\Authenticatable;
@@ -9,10 +9,10 @@ use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Str;
 use Illuminate\Validation\ValidationException;
-use Vendor\LaravelAiTryon\Contracts\AiTryOnProviderInterface;
-use Vendor\LaravelAiTryon\Data\TryOnResult;
-use Vendor\LaravelAiTryon\Models\AiTryOnGeneration;
-use Vendor\LaravelAiTryon\Models\AiTryOnUsage;
+use FahimHossain\LaravelAiTryon\Contracts\AiTryOnProviderInterface;
+use FahimHossain\LaravelAiTryon\Data\TryOnResult;
+use FahimHossain\LaravelAiTryon\Models\AiTryOnGeneration;
+use FahimHossain\LaravelAiTryon\Models\AiTryOnUsage;
 
 class TryOnService
 {

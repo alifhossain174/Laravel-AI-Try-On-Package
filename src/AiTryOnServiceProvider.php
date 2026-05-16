@@ -1,6 +1,6 @@
 <?php
 
-namespace Vendor\LaravelAiTryon;
+namespace FahimHossain\LaravelAiTryon;
 
 use Illuminate\Cache\RateLimiting\Limit;
 use Illuminate\Contracts\Container\Container;
@@ -8,13 +8,13 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\Facades\RateLimiter;
 use Illuminate\Support\ServiceProvider;
-use Vendor\LaravelAiTryon\Console\InstallCommand;
-use Vendor\LaravelAiTryon\Contracts\AiTryOnProviderInterface;
-use Vendor\LaravelAiTryon\Providers\GeminiTryOnProvider;
-use Vendor\LaravelAiTryon\Providers\OpenAiTryOnProvider;
-use Vendor\LaravelAiTryon\Providers\ReplicateTryOnProvider;
-use Vendor\LaravelAiTryon\Services\TryOnService;
-use Vendor\LaravelAiTryon\View\Components\TryOnButton;
+use FahimHossain\LaravelAiTryon\Console\InstallCommand;
+use FahimHossain\LaravelAiTryon\Contracts\AiTryOnProviderInterface;
+use FahimHossain\LaravelAiTryon\Providers\GeminiTryOnProvider;
+use FahimHossain\LaravelAiTryon\Providers\OpenAiTryOnProvider;
+use FahimHossain\LaravelAiTryon\Providers\ReplicateTryOnProvider;
+use FahimHossain\LaravelAiTryon\Services\TryOnService;
+use FahimHossain\LaravelAiTryon\View\Components\TryOnButton;
 
 class AiTryOnServiceProvider extends ServiceProvider
 {

@@ -1,14 +1,14 @@
 <?php
 
-namespace Vendor\LaravelAiTryon\Http\Controllers;
+namespace FahimHossain\LaravelAiTryon\Http\Controllers;
 
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
-use Vendor\LaravelAiTryon\Http\Requests\TryOnRequest;
-use Vendor\LaravelAiTryon\Jobs\GenerateTryOnPreview;
-use Vendor\LaravelAiTryon\Models\AiTryOnGeneration;
-use Vendor\LaravelAiTryon\Services\TryOnService;
+use FahimHossain\LaravelAiTryon\Http\Requests\TryOnRequest;
+use FahimHossain\LaravelAiTryon\Jobs\GenerateTryOnPreview;
+use FahimHossain\LaravelAiTryon\Models\AiTryOnGeneration;
+use FahimHossain\LaravelAiTryon\Services\TryOnService;
 
 class TryOnController extends Controller
 {

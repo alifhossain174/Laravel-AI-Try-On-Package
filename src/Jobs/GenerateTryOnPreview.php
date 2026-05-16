@@ -1,14 +1,14 @@
 <?php
 
-namespace Vendor\LaravelAiTryon\Jobs;
+namespace FahimHossain\LaravelAiTryon\Jobs;
 
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Foundation\Bus\Dispatchable;
 use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Queue\SerializesModels;
-use Vendor\LaravelAiTryon\Models\AiTryOnGeneration;
-use Vendor\LaravelAiTryon\Services\TryOnService;
+use FahimHossain\LaravelAiTryon\Models\AiTryOnGeneration;
+use FahimHossain\LaravelAiTryon\Services\TryOnService;
 
 class GenerateTryOnPreview implements ShouldQueue
 {
