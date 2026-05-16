@@ -7,7 +7,7 @@ The default provider is Google Gemini image generation through the Gemini API. M
 ## Installation
 
 ```bash
-composer require vendor/laravel-ai-tryon
+composer require fahimhossain/laravel-ai-tryon
 ```
 
 Publish the package files:
