@@ -1,5 +1,5 @@
 {
-    "name": "vendor/laravel-ai-tryon",
+    "name": "fahimhossain/laravel-ai-tryon",
     "description": "A reusable Laravel package that adds AI-powered ecommerce virtual try-on previews.",
     "keywords": [
         "laravel",
@@ -13,8 +13,8 @@
     "type": "library",
     "authors": [
         {
-            "name": "Package Maintainer",
-            "email": "maintainer@example.com"
+            "name": "Md Fahim Hossain",
+            "email": "alifhossain174@gmail.com"
         }
     ],
     "require": {
@@ -38,18 +38,18 @@
     },
     "autoload": {
         "psr-4": {
-            "Vendor\\LaravelAiTryon\\": "src/"
+            "FahimHossain\\LaravelAiTryon\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Vendor\\LaravelAiTryon\\Tests\\": "tests/"
+            "FahimHossain\\LaravelAiTryon\\Tests\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Vendor\\LaravelAiTryon\\AiTryOnServiceProvider"
+                "FahimHossain\\LaravelAiTryon\\AiTryOnServiceProvider"
             ]
         }
     },
